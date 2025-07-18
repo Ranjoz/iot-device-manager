@@ -1,0 +1,15 @@
+iot-device-manager/
+├── backend/
+│   ├── pom.xml
+│   └── src/
+│       └── main/java/com/devicemanager/
+│           ├── DeviceManagerApplication.java
+│           ├── controller/DeviceController.java
+│           ├── service/DeviceService.java
+│           ├── model/Device.java
+│           └── repository/DeviceRepository.java
+├── frontend/
+│   ├── package.json
+│   ├── vite.config.js
+│   └── src/App.jsx
+└── docker-compose.yml
